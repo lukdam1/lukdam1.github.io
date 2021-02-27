@@ -90,16 +90,19 @@ a:hover {
 a:active {
   color: black;
 
-  #backgroundImage {
-         border: none;
-         height: 1080px;
-         pointer-events: none;
-         position: fixed;
-         top: 0;
-         visibility: hidden;
-         width: 1920px;
-       }
+ {
+    height: 100%;
+  }
 
-       [show-background-image] #backgroundImage {
-         visibility: visible;
-       }
+  .bg {
+
+    background-image: url("img_girl.jpg");
+
+
+    height: 100%;
+
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
