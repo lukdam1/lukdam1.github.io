@@ -22,9 +22,10 @@ margin-right: auto;
 
 
 header{
-  background-color:#3607F3;
   height: 100px;
-  width: 100%x;
+  width: 100%;
+
+
 }
 
 nav{
@@ -37,7 +38,7 @@ nav{
 main{
 height: 50px;
 width: 100%;
-background-color: #a8329e;
+
 
 
 }
@@ -46,13 +47,13 @@ main{
 
   height: 400px;
   width: 100%px;
-  background-color: #a83232;
+
 }
 
 aside{
 height: 400px;
 width: 25%;
-background-color: #6132a8;
+
 
 }
 
@@ -60,7 +61,7 @@ footer{
 
   height: 50px;
   width: 100%;
-  background-color: #36a832;
+
 }
 
 #container{
@@ -89,3 +90,13 @@ a:hover {
 a:active {
   color: black;
 }
+
+#backgroundImage {
+       border: none;
+       height: 100%;
+       pointer-events: none;
+       position: fixed;
+       top: 0;
+       visibility: hidden;
+       width: 100%;
+     }
