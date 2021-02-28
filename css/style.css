@@ -80,7 +80,7 @@ text-decoration: none
 
 /* visited link */
 a:visited {
-  color: black;
+  color: purple;
 }
 
 /* mouse over link */
@@ -90,7 +90,7 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: black;
+  color: gray;
 
   h1,h2,h3{
     font-size: 30px;
