@@ -137,3 +137,7 @@ a:active {
   margin-right: auto;
   width: 30%;
 }
+
+h1,h2,h3{
+  font-size: 29px;
+}
